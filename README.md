@@ -56,7 +56,7 @@ consumer uses a [MessageConsumer](http://docs.oracle.com/javaee/7/api/javax/jms/
 ### How to run the HornetQ test
 
 * [Download HornetQ 2.4.0.Final](http://www.jboss.org/hornetq/downloads)
-* Unzip the HornetQ distribution to <HORNETQ_HOME>
+* Unzip the HornetQ distribution to ```<HORNETQ_HOME>```
 * Add this to <HORNETQ_HOME>/config/stand-alone/non-clustered/hornetq-jms.xml:
 ```
      <topic name="testTopic">
