@@ -48,7 +48,7 @@ consumer uses a [MessageConsumer](http://docs.oracle.com/javaee/7/api/javax/jms/
 
      ```ant compile```
 
-* Run the Kafka test
+* Run the Kafka test:
 
      ```ant runKafkaTest```
 
@@ -56,7 +56,7 @@ consumer uses a [MessageConsumer](http://docs.oracle.com/javaee/7/api/javax/jms/
 ### How to run the HornetQ test
 
 * [Download HornetQ 2.4.0.Final](http://www.jboss.org/hornetq/downloads)
-* Unzip the HornetQ distribution to ```<HORNETQ_HOME>```
+* Unzip the HornetQ distribution to &lt;HORNETQ_HOME&gt;
 * Add this to <HORNETQ_HOME>/config/stand-alone/non-clustered/hornetq-jms.xml:
 ```
      <topic name="testTopic">
@@ -65,13 +65,13 @@ consumer uses a [MessageConsumer](http://docs.oracle.com/javaee/7/api/javax/jms/
 ```
 * Start HornetQ:
 
-     ```<HORNETQ_HOME>/bin/run.sh```
+     ```&lt;HORNETQ_HOME&gt;/bin/run.sh```
 
 * Compile this project:
 
      ```ant compile```
 
-* Run the HornetQ test
+* Run the HornetQ test:
 
      ```ant runHornetQTest```
 
