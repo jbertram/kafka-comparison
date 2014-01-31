@@ -42,15 +42,15 @@ consumer uses a [MessageConsumer](http://docs.oracle.com/javaee/7/api/javax/jms/
 * [Install and start Kafka](https://kafka.apache.org/documentation.html#quickstart)
 * Create a topic to be used for the test. By default, "testTopic" will be used. For example:
 
-     bin/kafka-create-topic.sh --zookeeper localhost:2181 --replica 1 --partition 1 --topic testTopic
+     ```bin/kafka-create-topic.sh --zookeeper localhost:2181 --replica 1 --partition 1 --topic testTopic```
 
 * Compile this project:
 
-     ant compile
+     ```ant compile```
 
 * Run the Kafka test
 
-     ant runKafkaTest
+     ```ant runKafkaTest```
 
 
 ### How to run the HornetQ test
@@ -58,22 +58,22 @@ consumer uses a [MessageConsumer](http://docs.oracle.com/javaee/7/api/javax/jms/
 * [Download HornetQ 2.4.0.Final](http://www.jboss.org/hornetq/downloads)
 * Unzip the HornetQ distribution to <HORNETQ_HOME>
 * Add this to <HORNETQ_HOME>/config/stand-alone/non-clustered/hornetq-jms.xml:
-
+```
      <topic name="testTopic">
         <entry name="/topic/testTopic"/>
      </topic>
-
+```
 * Start HornetQ:
 
-     <HORNETQ_HOME>/bin/run.sh
+     ```<HORNETQ_HOME>/bin/run.sh```
 
 * Compile this project:
 
-     ant compile
+     ```ant compile```
 
 * Run the HornetQ test
 
-     ant runHornetQTest
+     ```ant runHornetQTest```
 
 ### Configuring the tests
 
