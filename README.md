@@ -65,7 +65,7 @@ consumer uses a [MessageConsumer](http://docs.oracle.com/javaee/7/api/javax/jms/
 ```
 * Start HornetQ:
 
-     ```bin/run.sh```
+     ```bin/run.sh``` 
 
 * Compile this project:
 
