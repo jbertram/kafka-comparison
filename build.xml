@@ -18,7 +18,7 @@
    </target>
 
    <artifact:dependencies filesetId="dependency.fileset">
-      <artifact:dependency groupId="org.hornetq" artifactId="hornetq-jms-client" version="2.4.1.Final"/>
+      <artifact:dependency groupId="org.hornetq" artifactId="hornetq-jms-client" version="2.4.0.Final"/>
    </artifact:dependencies>
 
    <path id="classpath">
